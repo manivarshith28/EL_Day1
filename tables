@@ -1,7 +1,7 @@
 # These are few tables and their sql codes to execute them
 
-# CUSTOMER TABLE
 
+# CUSTOMER TABLE
 CREATE TABLE customer (
     cid VARCHAR(5) PRIMARY KEY,
     cname VARCHAR(50),
@@ -13,8 +13,8 @@ INSERT INTO customer VALUES
 ('c3', 'Harman', 'Punjab'),
 ('c4', 'Kiran', 'Telangana');
 
-# ORDERS TABLE
 
+# ORDERS TABLE
 CREATE TABLE orders (
     oid VARCHAR(5) PRIMARY KEY,
     item VARCHAR(50),
@@ -30,8 +30,8 @@ INSERT INTO orders VALUES
 ('o3', 'jeans', 2500, 'c2'),
 ('o4', 'jacket', 1800, 'c1');
 
-# EMP TABLE
 
+# EMP TABLE
 CREATE TABLE emp (
     emp_id VARCHAR(5) PRIMARY KEY,
     emp_name VARCHAR(50),
@@ -46,7 +46,6 @@ INSERT INTO emp VALUES
 
 
 # DEPT TABLE
-
 CREATE TABLE dept (
     dept_id VARCHAR(5) PRIMARY KEY,
     dept_name VARCHAR(50),
